@@ -1,0 +1,42 @@
+.scoreboard {
+  background-color: #cf9292;
+  max-width: 80%;
+  margin: auto;
+}
+
+.users-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ebebeb;
+  padding: 10px 85px;
+}
+
+.users-score-title {
+  background-color: #ecb2b2;
+}
+
+.user-score-profile {
+  display: flex;
+}
+
+.user-score-photo {
+  min-width: 55px;
+  margin-right: 20px;
+  border: none;
+}
+.userPhoto.user-score-photo.active {
+  border: 4px solid #21ad60;
+}
+.user-score-name {
+  min-width: 150px;
+  text-align: left;
+}
+.user-score-status {
+  min-width: 80px;
+  text-align: left;
+}
+.user-score-score {
+  min-width: 100px;
+  text-align: right;
+}
